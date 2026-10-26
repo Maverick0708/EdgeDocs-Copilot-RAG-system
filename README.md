@@ -10,7 +10,7 @@ The default corpus covers **PyTorch, ONNX, ONNX Runtime, OpenCV, and OpenVINO**.
 
 The application explains these workflows from documentation; it does not itself export, train, or deploy the user's models.
 
-**Implementation:** [`EdgeDocs_Copilot-3.ipynb`](EdgeDocs_Copilot-3.ipynb). The interface is a Jupyter/Google Colab notebook with Markdown answers, tables, plots, and expandable source panels. There is no separate web server or packaged command-line application in the supplied notebook.
+**Implementation:** [`EdgeDocsCopilotRAG.ipynb`](EdgeDocsCopilotRAG.ipynb). The interface is a Jupyter/Google Colab notebook with Markdown answers, tables, plots, and expandable source panels. There is no separate web server or packaged command-line application in the supplied notebook.
 
 **Project status:** An implemented and evaluated notebook prototype. The indexing and retrieval experiments run end to end; the recorded local-model answers still need better citation adherence and answer quality before this can be treated as a reliable documentation assistant.
 
