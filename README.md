@@ -105,7 +105,7 @@ flowchart TD
 ### Google Colab
 
 1. Upload `EdgeDocs_Copilot-3.ipynb` to Colab.
-2.(optional) Select **Runtime → Change runtime type → T4 GPU**, if available. CPU execution is supported by the model-loading code but can be substantially slower.
+2. (optional) Select **Runtime → Change runtime type → T4 GPU**, if available. CPU execution is supported by the model-loading code but can be substantially slower.
 3. Run the installation cell and the definition cells in notebook order through section 3.
 4. In section **4.0**, choose the LLM provider. Leave the defaults for Ollama, or use `cfg.llm_provider = "none"` for retrieval-only operation.
 5. Run **4.1** to initialize embeddings, the reranker, the LLM client, and Qdrant. With Ollama selected, `setup_ollama()` installs/starts Ollama, downloads the configured model when necessary, and attempts a smoke test.
