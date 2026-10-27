@@ -2,7 +2,7 @@
 
 **A retrieval-augmented generation assistant for technical documentation, with configurable retrieval, incremental indexing, source-linked answers and an evaluation pipeline.**
 
-EdgeDocs Copilot helps engineers explore workflows involving PyTorch, ONNX, ONNX Runtime and related deployment tools. It searches a selected documentation corpus, assembles supporting passages, and asks a local language model to produce an answer linked to those passages. When evidence is missing or generated output fails validation, it abstains or returns clearly labeled excerpts.
+EdgeDocs Copilot helps engineers explore workflows involving PyTorch, ONNX, ONNX Runtime and related deployment tools. It searches a selected documentation corpus, assembles supporting passages, and asks a local language model to produce an answer linked to those passages. When evidence is missing or generated output fails validation, it abstains or returns clearly labeled excerpts. 
 
 A representative question is:
 
